@@ -3,7 +3,7 @@ import * as actionTypes from "../store/actionType"
 import Todo from "../components/todo";
 import { connect } from "react-redux";
 function WorkFlow(props){
-    var todosListStyle={border: "solid 2px #000",width:"100%",textAlign: "center",margin: "10px",borderRadius:"5px", textTransform:"capitalize", justifyContent:"space-between"};
+    var todosListStyle={border: "solid 2px #3B71CA",width:"100%",textAlign: "center",margin: "10px",borderRadius:"5px", textTransform:"capitalize", color:"#3B71CA"};
     const moveToProgress=(taskId)=>{
         props.markAsInProgress(taskId)
     }
